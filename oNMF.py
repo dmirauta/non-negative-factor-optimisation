@@ -9,7 +9,7 @@ Created on Fri Jul 17 11:29:18 2020
 import numpy as np
 import time, os, sys
 
-from NMF.oop_core import Factor, Decomp, norm_mat
+from NFO.core import Factor, Decomp, norm_mat
 
 def shift_mat_down(M, i):
     Mt = np.roll(M, i, 0)

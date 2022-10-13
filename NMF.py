@@ -12,7 +12,7 @@ Two factor NMF classes, only KL multiplicative updates currently implemented her
 import numpy as np
 import time, os, sys
 
-from NMF.core import Factor, Decomp, norm_mat
+from NFO.core import Factor, Decomp, norm_mat
 
 ε=1e-19
 
@@ -48,7 +48,7 @@ class KLNMF(Decomp):
     def __init__(self, V, r, **kwargs):
         self.n, self.m = V.shape
         self.r = r
-        super(NMF, self).__init__(V, **kwargs)
+        super(KLNMF, self).__init__(V, **kwargs)
         
     def factor_initialisation(self):
         self.factors['W'] = KL_NMF_W(self, label="W")
