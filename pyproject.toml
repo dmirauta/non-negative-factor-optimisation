@@ -1,0 +1,9 @@
+[project]
+name = "NTF"
+version = "0.1"
+authors = [{ name = "Dumitru Mirauta", email = "d.mirauta@protonmail.com" }]
+readme = "README.md"
+dependencies = ["numpy"]
+
+[project.urls]
+Repository = "https://github.com/dmirauta/non-negative-factor-optimisation.git"

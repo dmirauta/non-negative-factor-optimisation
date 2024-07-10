@@ -7,8 +7,7 @@ Created on Fri Jul 17 11:29:18 2020
 """
 
 import numpy as np
-
-from NFO.core import Factor, Decomp, norm_mat
+from NTF.core import Decomp, Factor, norm_mat
 
 
 def shift_mat_down(M, i):

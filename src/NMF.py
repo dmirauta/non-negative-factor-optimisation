@@ -10,8 +10,7 @@ Two factor NMF classes, only KL multiplicative updates currently implemented her
 """
 
 import numpy as np
-
-from NFO.core import Factor, Decomp, norm_mat
+from NTF.core import Decomp, Factor, norm_mat
 
 ε = 1e-19
 
